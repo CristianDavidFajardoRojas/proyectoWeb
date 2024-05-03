@@ -1,1 +1,95 @@
-@import url(variables.css)
+@import url(variables.css);
+
+body {
+    background: #ff702a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 54);
+}
+
+.first__page {
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    border: 3px solid #ff702a;   
+}
+
+.Foods__options {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-family: poppins;
+    color: #ff702a;
+    font-size: 2rem;
+
+}
+
+.Options {
+    display: flex;
+    gap: 50px;
+    font-size: 1.4rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.title__image {
+
+    display: flex;
+}
+
+.title {
+ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    font-family: "poppins";
+    color: white;
+    gap: 50px;
+}
+
+.title p{
+    font-size: 5rem;
+    width: 500px;
+    height: 100px;
+    margin: 0;
+    color: #ff702a;
+}
+
+.title > div{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title button {
+    width: 150px;
+    height: 50px;
+    font-family: "sans-serif";
+    font-size: 1.3rem;
+    background: #ff702a;
+    border: none;
+    color: white;
+}
+
+.title__image .image {
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_page {
+    display: flex;
+    background: gray;
+    margin-top: 40px;
+}
+
+.aboutus {
+    color: white;
+}
