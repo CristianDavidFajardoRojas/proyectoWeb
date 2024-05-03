@@ -294,3 +294,70 @@ main {
 }
 
 
+
+
+
+.last_page {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: poppins;
+    padding-top: 50px;
+    gap: 100px;
+    border: 3px solid var(--color-1);
+}
+
+.last_page div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.last_page > div > p {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.last_page > div > span {
+    font-size: 1.2rem;
+}
+
+.last_page > div > hr {
+    width: 70px;
+    background: var(--color-1);
+    height: 3px;
+    border: none;
+    left: 0;
+    position: absolute;
+    top: 53px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+    background: green; 
+}
+
+.last_page > div > div > div {
+    width: 30px;
+    height: 30px;
+    background: var(--color-1);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.point2 {
+    left: 40px;
+}
+
+.point3 {
+    left: 80px;
+}
+
+.point4 {
+    left: 120px;
+}
+
